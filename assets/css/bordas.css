@@ -1,0 +1,32 @@
+.caixa{
+    width: 200px;
+    display: inline-block;
+    background-color: beige;
+    height: 200px;
+}
+.borda-topo{
+    border-top-width: 5px;
+    border-top-style: ridge;
+    border-top-color: red;
+}
+.borda-direita{
+    border-right-width: 5px;
+    border-right-style: ridge;
+    border-right-color: red;
+}
+.borda-esquerda{
+    border-left-width: 5px;
+    border-left-style: dashed;
+    border-left-color: red;
+}
+.borda-base{
+    border-bottom: 5px;
+    border-bottom-style:solid;
+    border-bottom-color: red;
+}
+.borda-completa{
+    border-top: 5px ridge red;
+    border-bottom: 5px ridge red;
+    border-right: 5px ridge red;
+    border-left:5px ridge red;
+}
